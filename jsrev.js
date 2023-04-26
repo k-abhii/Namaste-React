@@ -7,6 +7,6 @@ const obj = {
   }
 }
 
-obj.fn();
+obj.fn();   /*Normal function returns object */
 console.log("=========================================");
-obj.fn2();
+obj.fn2();  /* arrow function returns parent this */
